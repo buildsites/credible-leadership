@@ -127,3 +127,11 @@ width:100%;
          }
 
  }
+
+
+ /* gallery page */
+
+ .gallery-conatainer-upload{
+    height:100px;
+    background-color:blueviolet;
+ }
