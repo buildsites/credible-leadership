@@ -61,8 +61,8 @@ width:100%;
 .custom-row{
 margin: 20px 30px;
 }
-.cl-cap-img{
-    width:25%;
+.cl-img{
+    width:45%;
     /* margin:50px auto 0; */
 }
 
@@ -79,7 +79,7 @@ margin: 20px 30px;
 }
 
 .custom-card{
-    margin:20px 0;
+    /* margin:20px 0; */
     height:550px;
     box-shadow: rgb(184, 182, 182) 0 2px 7px;
 }
@@ -120,7 +120,7 @@ margin: 20px 30px;
          font-size: 2.5rem
      }
 
-         .cl-cap-img {
+         .cl-img{
              width: 35%;
     
          }
@@ -131,14 +131,16 @@ margin: 20px 30px;
      .slogan-text {
          font-size: 2.0rem
      }
-         .cl-cap-img {
-             width: 45%;
+         .cl-img{
+             width: 70%;
     
          }
          .brand-img{
             width:180px;
          }
-
+ .executive-about-info{
+    float:left;
+ }
  }
 
 /* larger devices */
