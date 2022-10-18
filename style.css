@@ -93,6 +93,7 @@ margin: 20px 30px;
       height: 550px;
       box-shadow: 0 0 0;
       color:grey;
+    font-family: "montserrat"
       
 
   }
@@ -126,6 +127,11 @@ margin: 20px 30px;
     width:70%;
     border:7px solid white;
     box-shadow:0 2px 7px;
+ }
+
+ .executive-about-info{
+    font-family:"montserrat";
+    text-align:justify;
  }
 
 
