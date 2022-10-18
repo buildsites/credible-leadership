@@ -79,11 +79,30 @@ margin: 20px 30px;
     width:100%;
 }
 
-.custom-card{
-    margin:20px 0;
-    height:550px;
-    box-shadow: rgb(184, 182, 182) 0 2px 7px;
+.custom-card-title{
+    box-shadow:grey 0 2px 7px;
+    text-align:center;
+    margin:0;
+    font-weight:bold;
+    color:rgb(31, 168, 93);
+    
 }
+
+  .custom-card {
+
+      height: 550px;
+      box-shadow: 0 0 0;
+      color:grey;
+      
+
+  }
+
+  .card {
+      box-shadow: rgb(184, 182, 182) 0 2px 7px;
+      margin: 20px 0;
+    padding: 10px;
+  }
+
  .clsg-flag {
      text-align: right;
      background-color: rgb(31, 168, 93);
@@ -99,6 +118,7 @@ margin: 20px 30px;
  /* picture flow chat */
  .heading-two-executives{
     color:green; margin-top:100px;
+    font-weight:bold;
  }
  .custom-image{
     border-radius:50%;
@@ -144,6 +164,12 @@ margin: 20px 30px;
  .executive-about-info{
     float:left;
  }
+  .custom-card {
+
+      height:auto;
+     
+
+  }
  }
 
 /* larger devices */
