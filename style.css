@@ -27,13 +27,15 @@ justify-content:space-between;
     text-decoration:none;
 }
 .start-div{
-    margin-top:75px;
+   
+    background-color:rgb(31, 168, 93);
+    border:1px solid green;
 }
 .slogan-text-container{
     text-align:center;
     /* margin-top:20px; */
     padding:200px 0 120px;
-    top:80px;
+    /* top:80px; */
     
     /* background-image:url("images/blue-jean-crowd.jpg");  */
      color:white;
@@ -163,9 +165,9 @@ margin: 20px 30px;
  /* small devices */
 
  @media screen and (max-width:800px) {
-    .slogan-text-container{
+    /* .slogan-text-container{
         top: -5px;
-    }
+    } */
      .slogan-text {
          font-size: 2.5rem
      }
@@ -184,11 +186,11 @@ margin: 20px 30px;
 
  @media screen and (max-width:500px) {
 .start-div{
-    margin-top:auto;
+    margin-top:30;
 }
-    .slogan-text-container{
+    /* .slogan-text-container{
         top:-100px;
-    }
+    } */
      .slogan-text {
          font-size: 1.5rem
      }
