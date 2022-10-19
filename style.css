@@ -26,7 +26,9 @@ justify-content:space-between;
 .nav-link{
     text-decoration:none;
 }
-
+.start-div{
+    margin-top:75px;
+}
 .slogan-text-container{
     text-align:center;
     /* margin-top:20px; */
@@ -181,6 +183,9 @@ margin: 20px 30px;
  }
 
  @media screen and (max-width:500px) {
+.start-div{
+    margin-top:55px;
+}
     .slogan-text-container{
         top:-100px;
     }
