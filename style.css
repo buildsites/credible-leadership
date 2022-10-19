@@ -184,7 +184,7 @@ margin: 20px 30px;
 
  @media screen and (max-width:500px) {
 .start-div{
-    margin-top:55px;
+    margin-top:auto;
 }
     .slogan-text-container{
         top:-100px;
