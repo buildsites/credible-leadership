@@ -265,9 +265,20 @@ font-size:2.5rem;
 
 .peter-aims{
     font-size:1.5rem;
-    
+    text-align:justify;
+
+}
+iframe{
+    width:700;
+    height:660;
 }
 
+@media screen and (max-width:500px){
+    iframe{
+        width:80%;
+        height:70%;
+    }
+}
 
  /* animating gallery photos */
  .view {
