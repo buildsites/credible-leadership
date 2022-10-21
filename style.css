@@ -244,6 +244,7 @@ font-size:2.5rem;
 
 
 
+
  /* gallery page */
 
  .gallery-conatainer-upload{
@@ -261,6 +262,12 @@ font-size:2.5rem;
  .anchor:hover{
     color:rgb(31, 168, 93);
  }
+
+.peter-aims{
+    font-size:1.5rem;
+    
+}
+
 
  /* animating gallery photos */
  .view {
