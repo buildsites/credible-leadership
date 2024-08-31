@@ -4,6 +4,125 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+
+<style>
+#loader-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color:#2c3e50 ;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 9999; /* Ensure it's on top of other elements */
+    }
+
+    #loader {
+      font-size: 24px;
+      text-align: center;
+    }
+
+body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      height: 100vh;
+      margin: 0;
+      background-color: #2c3e50;
+      color: #ecf0f1;
+      font-family: 'Arial', sans-serif;
+    }
+
+  #game-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    margin-bottom: 20px;
+  }
+
+  .current-score{
+    font-size: 24px;
+  }
+
+  #highest-score {
+    font-size: 16px; /* Adjust the font size as needed */
+    opacity: 0.7; /* Adjust the opacity as needed */
+    margin-top: 5px; /* Adjust the margin-top as needed */
+  }
+    #game-board {
+      position: relative;
+      width: 350px;
+      height: 350px;
+      border: 1px solid #34495e;
+      margin-bottom: 20px;
+      background-color: #ecf0f1;
+      
+    }
+
+    .snake, .food {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+    }
+
+    .snake {
+      background-color: #27ae60;
+      border-radius:5px;
+    }
+
+    .food {
+      background-color: #e74c3c;
+    }
+
+    .control-buttons {
+      display: flex;
+      justify-content: center;
+    }
+    
+    .control{
+        width:20px;
+    }
+
+    button {
+      margin: 5px;
+      padding: 15px;
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+      background-color: #3498db;
+      color: #ecf0f1;
+      border: none;
+      border-radius: 5px;
+    }
+    
+  /* Overlay styles */
+    #overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+      display: none;
+      align-items: center;
+      justify-content: center;
+    }
+
+    #overlay-content {
+      text-align: center;
+      color: #ffffff;
+      font-size: 28px;
+    } 28px;
+    }
+
+
+</style>
 </head>
 <body>
     <audio id="backgroundMusic" src="background_music.mp3" loop autoplay></audio>
